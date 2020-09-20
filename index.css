@@ -58,13 +58,14 @@ nav{
 }
 
 .tank-img {
-    margin: 0 0 30px;
+    margin: 0 0 10px;
     display:flex;
     justify-content:center;
 }
 
 .tank-img img{
     width: 100vw;
+    margin-bottom: 10px;
 }
 
 .tank h2 {
@@ -79,6 +80,7 @@ nav{
 .tank h3 {
     padding-left: 20px;
     font-size: 2em;
+    margin: 0;
 }
 
 .collapsible{
@@ -87,6 +89,13 @@ nav{
 
 .content {
     display:none;
+}
+
+.divider {
+    background-color: #FFC309;
+    height: 4px;
+    margin: 40px;
+    margin-top: 60px;
 }
 
 @media (min-width: 480px) {
