@@ -8,25 +8,27 @@ body {
     margin: 0;
 }
 
-#bradley .header {
+nav{
+    background-color: #FFC309;
+    color: black;
+    height: 60px;
+    font-size: 1.2em;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header {
     margin-top: 20px;
     height: 600px;
     width: 100%; 
     text-align: center;
-    /* background-image: url(/BRADLEY/VehicleSheet_M2A3.jpg);
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    opacity: 0.5; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 } 
 
 .header picture {
     margin: 0;
 }
-.header img{
+.header-image{
     position:absolute;
     width: 600px;
     left:50%;
@@ -34,6 +36,13 @@ body {
     z-index: -1;
     filter: grayscale(100%);
     opacity: 0.7;
+    transition: 0.15s ease-in-out;
+}
+
+.header:hover img{
+    filter: grayscale(0%);
+    opacity: 1;
+    transition: 0.15s ease-in-out;
 }
 
 .tank {
@@ -63,10 +72,21 @@ body {
     font-size: 9em;
     padding: 100px;
     opacity: 1;
+    user-select: none;
+    color:#FFC309;
 }
 
 .tank h3 {
     padding-left: 20px;
+    font-size: 2em;
+}
+
+.collapsible{
+    cursor: pointer;
+}
+
+.content {
+    display:none;
 }
 
 /* @media {
