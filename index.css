@@ -8,9 +8,38 @@ body {
     margin: 0;
 }
 
+#bradley .header {
+    margin-top: 20px;
+    height: 600px;
+    width: 100%; 
+    text-align: center;
+    /* background-image: url(/BRADLEY/VehicleSheet_M2A3.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    opacity: 0.5; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+} 
+
+.header picture {
+    margin: 0;
+}
+.header img{
+    position:absolute;
+    width: 600px;
+    left:50%;
+    margin-left: -300;
+    z-index: -1;
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
 .tank {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .tank-img-details {
@@ -30,7 +59,10 @@ body {
 }
 
 .tank h2 {
-    text-align:center;
+    text-align: center;
+    font-size: 9em;
+    padding: 100px;
+    opacity: 1;
 }
 
 .tank h3 {
