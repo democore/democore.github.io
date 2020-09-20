@@ -6,12 +6,12 @@ for (i = 0; i < coll.length; i++) {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         var penguin = this.getElementsByClassName("header-image")[0];
-        if (content.style.display === "block") {
+        if (content.style.display === "flex") {
             penguin.style.filter = "grayscale(1)";
             penguin.style.opacity = "0.7";
             content.style.display = "none";
         } else {
-            content.style.display = "block";
+            content.style.display = "flex";
             penguin.style.filter = "grayscale(0)";
             penguin.style.opacity = "1";
         }

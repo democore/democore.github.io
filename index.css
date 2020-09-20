@@ -89,9 +89,16 @@ nav{
     display:none;
 }
 
-/* @media {
+@media (min-width: 480px) {
+    .content{
+        display: flex;
+        flex-flow: row wrap;
+    }
 
-} */
+    .tank-img img {
+        width: 32vw;
+    }
+}
 
 
 
