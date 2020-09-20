@@ -1,0 +1,45 @@
+#bradley {
+    width: 100px;
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Verdana,Geneva,sans-serif; 
+}
+
+.VehiclePicture {
+    position: absolute;
+    width: 400px;
+    display: flex; /* or inline-flex */
+}
+
+.VehicleFront {
+    left: 500px;
+    top: 100px;
+}
+
+.VehicleBack {
+    left: 500px;
+    top: 355px;
+}
+
+.VehicleLeft {
+    left: 0px;
+    top: 100px;
+}
+
+.VehicleRight {
+    left: 0px;
+    top: 355px;
+}
+
+.VehicleTop {
+    left: 1000px;
+    top: 100px;
+}
+
+.VehicleBottom{
+    left: 1000px;
+    top: 355px;
+}
