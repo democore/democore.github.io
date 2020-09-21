@@ -88,7 +88,9 @@ nav{
 }
 
 .content {
+    margin-top:30px;
     display:none;
+    justify-content: space-between;
 }
 
 .divider {
@@ -107,6 +109,13 @@ nav{
     .tank-img img {
         width: 50vw;
         height: 250px;
+    }
+}
+
+@media (min-width: 800px){
+    .tank-img img{
+        width: 33vw;
+        margin: 2px;
     }
 }
 
